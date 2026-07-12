@@ -1,16 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portafolio - Karina Guevara</title>
   </head>
   <body>
-    <header>
-      <div class="header_content">
-        <h1>Karina Guevara</h1>
-        <p>Desarrolladora Full-Stack Junior | TypeScript, React, Node.js</p>
-        <p>
+    <header class="header">
+      <div class="header_textcontainer">
+        <h1 class="header_title">Karina <br />Guevara</h1>
+        <p class="header_subtitle">
+          Desarrolladora Full-Stack Junior | TypeScript, React, Node.js
+        </p>
+        <p class="header_description">
           Desarrolladora web junior con experiencia práctica creando interfaces
           limpias y responsivas con HTML, CSS, JavaScript y React, así como
           implementando lógica básica de back-end. Ha trabajado en proyectos
@@ -20,61 +23,170 @@
           aprendiendo, asumir nuevos retos y aprovechar oportunidades para
           crecer como desarrolladora.
         </p>
-        <nav>
-          <ul>
-            <li><a href="#">Descargar CV</a></li>
-            <li><a href="#">Enlace a GitHub</a></li>
-            <li><a href="#">Hablemos</a></li>
+        <nav class="nav">
+          <ul class="nav_links">
+            <li><a class="nav_link" href="#">Descargar CV</a></li>
+            <li><a class="nav_link" href="#">Enlace a GitHub</a></li>
+            <li><a class="nav_link" href="#">Hablemos</a></li>
           </ul>
         </nav>
       </div>
+      <img
+        src="./images/perfil_karina.jpg"
+        alt="Foto de perfil"
+        class="header_img"
+      />
     </header>
     <main>
-      <section class="habilidades">
-        <h2>Habilidades y herramientas</h2>
-        <img src="https://via.placeholder.com/150" alt="Logo html5" />
-        <img src="https://via.placeholder.com/150" alt="Logo css3" />
-        <img src="https://via.placeholder.com/150" alt="Logo javascript" />
-        <img src="https://via.placeholder.com/150" alt="Logo Git" />
-        <img src="https://via.placeholder.com/150" alt="Logo GitHub" />
-        <img src="https://via.placeholder.com/150" alt="Logo ChatGPT" />
+      <section class="Habilidades">
+        <h2 class="section_title">Habilidades y herramientas</h2>
+        <div class="technologies_logos">
+          <img
+            class="technology_logo"
+            src="./images/iconos/html5.png"
+            alt="Logo html5"
+          />
+          <img
+            class="technology_logo"
+            src="./images/iconos/cs3.png"
+            alt="Logo css3"
+          />
+          <img
+            class="technology_logo"
+            src="./images/iconos/javascript.png"
+            alt="Logo javascript"
+          />
+          <img
+            class="technology_logo"
+            src="./images/iconos/git.png"
+            alt="Logo Git"
+          />
+          <img
+            class="technology_logo"
+            src="./images/iconos/github.png"
+            alt="Logo GitHub"
+          />
+          <img
+            class="technology_logo"
+            src="./images/iconos/chatgpt.png"
+            alt="Logo ChatGPT"
+          />
+        </div>
       </section>
-    
-      <section class="Destacados">
-        <h2>Proyectos Destacados</h2>
-        <div class="card_proyectos">
-          <img src="imagen.jpg" alt="Imagen de la card" class="card-img" />
-          <h2 class="card-title">Título de la Card</h2>
-          <p class="card-text">
-            Este es un párrafo descriptivo que explica el contenido de la card.
-          </p>
-          <a href="#" class="card-link">
-            <i class="fas fa-info-circle"></i> Más información
-          </a>
-          <a href="#" class="card-link">
-            <i class="fas fa-download"></i> Descargar
-          </a>
-        </div>
 
-        <div class="card_proyectos">
-          <img src="imagen.jpg" alt="Imagen de la card" class="card-img" />
-          <h2 class="card-title">Título de la Card</h2>
-          <p class="card-text">
-            Este es un párrafo descriptivo que explica el contenido de la card.
-          </p>
-          <a href="#" class="card-link">
-            <i class="fas fa-info-circle"></i> Más información
-          </a>
-          <a href="#" class="card-link">
-            <i class="fas fa-download"></i> Descargar
-          </a>
-        </div>
+      <section class="Destacados">
+        <h2 class="section_title">Proyectos Destacados</h2>
+
+        <!-- DIV CONTENEDor de cards-->
+        <div class="cards_container">
+
+          <!-- CARD 1 -->
+          <div class="card">
+            <img
+              class="card_img"
+              src="./images/proyectos/cafeteria.png"
+              alt="Proyecto Cafetería"
+            />
+            <div class="card_content">
+            <h3 class="card_title">Página web de una cafetería</h3>
+            <p class="card_description">
+              Desarrollo de una landing page responsiva para una cafetería siguiendo un brief de diseño. 
+              Incluye estructura semántica, maquetación con Flexbox, creación de secciones nuevas y un formulario
+               de contacto funcional.
+               <br
+               Logro: Implementé desde cero el diseño completo de la página, organicé el
+                proyecto con buenas prácticas y publiqué la versión final utilizando GitHub Pages.
+            </p>
+            <div class="card_links">
+              <img
+                class="card_link_first"
+                src="./images/iconos/irdemo_link.svg"
+                alt="Icono Demo en vivo"
+              />
+            <a
+              class="card_link_first"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Demo en vivo</a
+            >
+            <img
+                class="card_link_second"
+                src="./images/iconos/github_link.svg"
+                alt="Icono GitHub"
+              />
+            <a
+              class="card_link_second"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a>
+            </div>
+            </div>
+            <!-- fin de la CARD 1 -->
+
+          </div>
+
+        <!-- CARD 2 -->
+          <div class="card">
+            <img
+              class="card_img"
+              src="./images/proyectos/code.png"
+              alt="Proyecto Cafetería"
+            />
+            <div class="card_content">
+            <h3 class="card_title">Mi proyecto</h3>
+            <p class="card_description">
+              Descripción del proyecto
+            </p>
+            <div class="card_links">
+              <img
+                class="card_link_first"
+                src="./images/iconos/irdemo_link.svg"
+                alt="Icono Demo en vivo"
+              />
+            <a
+              class="card_link_first"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Demo en vivo</a
+            >
+            <img
+                class="card_link_second"
+                src="./images/iconos/github_link.svg"
+                alt="Icono GitHub"
+              />
+            <a
+              class="card_link_second"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a>
+            </div>
+            <!-- fin de la CARD 2 -->
+
+
+
+          </div>
+
+
+
       </section>
 
       
     </main>
-    <footer>
-      <p>&copy; 2024 My Website. All rights reserved.</p>
+    <footer class="footer">
+        <h4 class="title_footer">Contacto</h4>
+        <a href="correo" class="link_footer">student@tripleten.com</a>
+        <div class="footer_social_links">
+        <a href="#"><img src="./images/iconos/in_Negative.png" alt="LinkedIn" /></a>
+        <a href="#"><img src="./images/iconos/fb_negative.png" alt="Facebook" /></a>
+        <a href="#"><img src="./images/iconos/inta_negative.png" alt="Instagram" /></a>
+        <a href="#"><img src="./images/iconos/x_negative.png" alt="X" /></a>
+        </div>
+
     </footer>
   </body>
 </html>
+ 
