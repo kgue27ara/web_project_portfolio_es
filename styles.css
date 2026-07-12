@@ -88,9 +88,9 @@ body {
 }
 
 .header_img {
-  width: 590px;
-  height: 330px;
-  padding-left: 920px;
+  width: 330px;
+  height: 1200px;
+  padding-left: 915px;
   padding-bottom: 0px;
   position: relative;
   bottom: 400px;
@@ -136,7 +136,7 @@ body {
 }
 
 .section_title {
-  padding: 120px 120px 50px 120px;
+  padding: 50px 120px 50px 120px;
   width: 603px;
   height: 44px;
   left: 120px;
@@ -147,6 +147,7 @@ body {
   font-size: 40px;
   line-height: 44px;
   color: #ffffff;
+  margin: 0;
 }
 
 .technology_logo {
@@ -159,7 +160,7 @@ body {
   flex-direction: row;
   display: flex;
   justify-content: space-between;
-  padding: 0px 120px 180px 120px;
+  padding: 0px 120px 100px 120px;
   gap: 20px;
 }
 
@@ -205,48 +206,56 @@ body {
   line-height: 25px;
   color: #ffffff;
   margin: 0;
-  padding: 20px 30px;
+  padding: 20px 30px 30px;
 }
 
 .card_links {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px 30px;
   gap: 20px;
-  padding: 0px 30px 20px 30px;
 }
 
-.card_link_first {
-  width: 102px;
+.link_one {
+  width: 132px;
   height: 22px;
-  left: 180px;
+  left: 760px;
   top: 1603px;
+  display: flex;
+  gap: 10px;
+}
+
+.link_two {
+  width: 132px;
+  height: 22px;
+  left: 760px;
+  top: 1603px;
+  display: flex;
+  gap: 10px;
+}
+
+.link_one a {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  /* idéntico a la altura del cuadro */
   color: #6d6dff;
   text-decoration: none;
 }
 
-.card_link_second {
-  width: 53px;
-  height: 22px;
-  left: 332px;
-  top: 1603px;
+.link_two a {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  /* idéntico a la altura del cuadro */
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
 .footer {
-  padding: 130px 120px 100px;
+  padding: 0px 120px 100px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -266,7 +275,7 @@ body {
   line-height: 25px;
   /* idéntico a la altura del cuadro */
   text-align: center;
-
+  text-decoration: none;
   color: #6d6dff;
 }
 
@@ -290,6 +299,7 @@ body {
   /* idéntico a la altura del cuadro */
   text-align: center;
   color: #ffffff;
+  margin: 0;
 }
 
 .text_footer {
