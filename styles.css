@@ -2,7 +2,7 @@
   font-family: "Archivo";
   src:
     url("./fonts/ArchivoBlack-Regular.woff2") format("woff2"),
-    url("./fonts/") format("woff");
+    url("./fonts/ArchivoBlack-Regular.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -41,15 +41,20 @@ body {
 
 .header {
   display: flex;
-  flex-direction: column;
-  position: relative;
+  flex-direction: colurmn;
+  justify-content: space-between;
   padding: 89px 120px 0px 120px;
   min-height: 500px;
   height: 600px;
 }
 
+.header_textcontainer{
+  padding: 0 120px;
+}
+
+
 .header_title {
-  max-width: 793px;
+  max-width: 500px;
   font-family: "Archivo Black";
   font-style: normal;
   font-weight: 400;
@@ -85,10 +90,10 @@ body {
   width: 330px;
   max-width: 100%;
   height: auto;
-  padding-left: 915px;
-  padding-bottom: 0px;
+  justify-content: space-between;
+  padding: 0px 120px 0px 120px;
   position: relative;
-  bottom: 400px;
+  bottom: 0px;
   object-fit: cover;
   z-index: 1;
   margin: 0;
@@ -176,8 +181,6 @@ body {
 .card_img {
   width: 100%;
   height: auto;
-  left: 120px;
-  top: 985px;
   display: block;
 }
 
@@ -185,7 +188,7 @@ body {
   position: absolute;
   inset: 0;
   background:
-  linear-gradient(to bottom) rgba(0, 0, 0, 0.5),transparent;
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
