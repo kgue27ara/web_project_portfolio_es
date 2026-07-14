@@ -4,8 +4,8 @@ Sitio web personal tipo portafolio, desarrollado como proyecto del bootcamp de *
 
 ## 🔗 Demo
 
-- **Demo en vivo:** _[agregar enlace una vez publicado, ej. GitHub Pages]_
-- **Repositorio:** _[agregar enlace al repo]_
+- **Demo en vivo:** https://kgue27ara.github.io/web_project_portfolio_es/
+- **Repositorio:** https://github.com/kgue27ara/web_project_portfolio_es
 
 ## 🖼️ Vista previa
 
