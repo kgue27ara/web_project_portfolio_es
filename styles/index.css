@@ -565,7 +565,7 @@ body {
   .img_overlay {
     width: 280px;
     height: 160px;
-    aspect-ratio:;
+    aspect-ratio:16/9;
   }
 
   .overlay {
