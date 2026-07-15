@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Portafolio - Karina Guevara</title>
     <link href="./favicon.ico" rel="icon" type="image/x-ico" />
-
   </head>
   <body>
     <header class="header">
@@ -33,8 +32,18 @@
         <nav class="nav">
           <ul class="nav_links">
             <li><a class="nav_link" href="descarga">Descargar CV</a></li>
-            <li><a class="nav_link" href="https://github.com/kgue27ara/web_project_coffeeshop_es">Enlace a GitHub</a></li>
-            <li><a class="nav_link" href="mailto:kguevara.uxui@gmail.com">Hablemos</a></li>
+            <li>
+              <a
+                class="nav_link"
+                href="https://github.com/kgue27ara/web_project_coffeeshop_es"
+                >Enlace a GitHub</a
+              >
+            </li>
+            <li>
+              <a class="nav_link" href="mailto:kguevara.uxui@gmail.com"
+                >Hablemos</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -42,7 +51,7 @@
       <div class="header_glow"></div>
     </header>
     <main>
-      <section class="Habilidades">
+      <section class="section_one">
         <h2 class="section_title">Habilidades y herramientas</h2>
         <div class="technologies_logos">
           <img
@@ -78,82 +87,155 @@
         </div>
       </section>
 
-      <section class="Destacados">
+      <section class="section_two">
         <h2 class="section_title">Proyectos Destacados</h2>
 
         <!-- DIV CONTENEDor de cards-->
-<div class="cards_container">
-
-  <!-- CARD 1 -->
-  <div class="card">
-      <div class="img_overlay">
-        <img class="card_img" src="./images/proyectos/cafeteria.png" alt="Proyecto Cafetería" />
-        <div class="overlay">
-        <img class="logo_overlay1" src="./images/iconos/logos_overlay/logos_overlayhtml.png" alt="html5"/>
-        <img class="logo_overlay2" src="./images/iconos/logos_overlay/logos_overlaycss.png" alt="css3"/>
-      </div>
-    </div>
-  <div class="card_content">
-      <h3 class="card_title">Página web de una cafetería</h3>
-      <p class="card_description">
-        Desarrollo de una landing page responsiva para una cafetería siguiendo un brief de diseño.
-        Incluye estructura semántica, maquetación con Flexbox, creación de secciones nuevas y un formulario
-        de contacto funcional.</p>
-        <p class="card_descriptionparagraph">
-        Logro: Implementé desde cero el diseño completo de la página, organicé el
-        proyecto con buenas prácticas y publiqué la versión final utilizando GitHub Pages.
-      </p>
-      <div class="card_links">
-        <div class="link_one">
-          <img src="./images/iconos/irdemo_link.svg" alt="Ir al demo" width="20px" height="20px" />
-          <a href="https://kgue27ara.github.io/web_project_coffeeshop_es/">Demo en vivo</a>
+        <div class="cards_container">
+          <!-- CARD 1 -->
+          <div class="card">
+            <div class="img_overlay">
+              <img
+                class="card_img"
+                src="./images/proyectos/cafeteria.png"
+                alt="Proyecto Cafetería"
+              />
+              <div class="overlay">
+                <img
+                  class="logo_overlay1"
+                  src="./images/iconos/logos_overlay/logos_overlayhtml.png"
+                  alt="html5"
+                />
+                <img
+                  class="logo_overlay2"
+                  src="./images/iconos/logos_overlay/logos_overlaycss.png"
+                  alt="css3"
+                />
+              </div>
+            </div>
+            <div class="card_content">
+              <h3 class="card_title">Página web de una cafetería</h3>
+              <p class="card_description">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional.
+              </p>
+              <p class="card_descriptionparagraph">
+                Logro: Implementé desde cero el diseño completo de la página,
+                organicé el proyecto con buenas prácticas y publiqué la versión
+                final utilizando GitHub Pages.
+              </p>
+              <div class="card_links">
+                <div class="link_one">
+                  <img
+                    src="./images/iconos/irdemo_link.svg"
+                    alt="Ir al demo"
+                    width="20px"
+                    height="20px"
+                  />
+                  <a
+                    href="https://kgue27ara.github.io/web_project_coffeeshop_es/"
+                    >Demo en vivo</a
+                  >
+                </div>
+                <div class="link_two">
+                  <img
+                    src="./images/iconos/github_link.svg"
+                    alt="Ir a github"
+                    width="20px"
+                    height="20px"
+                  />
+                  <a
+                    href="https://github.com/kgue27ara/web_project_coffeeshop_es"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 2 -->
+          <div class="card">
+            <div class="img_overlay">
+              <img
+                class="card_img"
+                src="./images/proyectos/code.png"
+                alt="Mi proyecto"
+              />
+              <div class="overlay">
+                <img
+                  class="logo_overlay1"
+                  src="./images/iconos/logos_overlay/logos_overlayjava.png"
+                  alt="javascript"
+                />
+                <img
+                  class="logo_overlay2"
+                  src="./images/iconos/logos_overlay/logos_overlayreact.png"
+                  alt="react"
+                />
+              </div>
+            </div>
+            <div class="card_content-secondary">
+              <h3 class="card_title">Mi proyecto</h3>
+              <p class="card_description">Descripción del proyecto</p>
+              <div class="card_links">
+                <div class="link_one">
+                  <img
+                    src="./images/iconos/irdemo_link.svg"
+                    alt="Ir al demo"
+                    width="20px"
+                    height="20px"
+                  />
+                  <a
+                    href="https://kgue27ara.github.io/web_project_portfolio_es/"
+                    >Demo en vivo</a
+                  >
+                </div>
+                <div class="link_two">
+                  <img
+                    src="./images/iconos/github_link.svg"
+                    alt="Ir a github"
+                    width="20px"
+                    height="20px"
+                  />
+                  <a
+                    href="https://github.com/kgue27ara/web_project_coffeeshop_es"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="link_two">
-          <img src="./images/iconos/github_link.svg" alt="Ir a github" width="20px" height="20px" />
-          <a href="https://github.com/kgue27ara/web_project_coffeeshop_es">GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 2 -->
-  <div class="card">
-          <div class="img_overlay">
-       <img class="card_img" src="./images/proyectos/code.png" alt="Mi proyecto" />
-        <div class="overlay">
-        <img class="logo_overlay1" src="./images/iconos/logos_overlay/logos_overlayjava.png" alt="javascript"/>
-        <img class="logo_overlay2" src="./images/iconos/logos_overlay/logos_overlayreact.png" alt="react"/>
-      </div>
-    </div>
-    <div class="card_content-secondary">
-      <h3 class="card_title">Mi proyecto</h3>
-      <p class="card_description">
-        Descripción del proyecto
-      </p>
-      <div class="card_links">
-        <div class="link_one">
-          <img src="./images/iconos/irdemo_link.svg" alt="Ir al demo" width="20px" height="20px" />
-          <a href="https://kgue27ara.github.io/web_project_portfolio_es/">Demo en vivo</a>
-        </div>
-        <div class="link_two">
-          <img src="./images/iconos/github_link.svg" alt="Ir a github" width="20px" height="20px" />
-          <a href="https://github.com/kgue27ara/web_project_coffeeshop_es">GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    </section>
+      </section>
     </main>
     <footer class="footer">
-        <h4 class="title_footer">Contacto</h4>
-        <a href="correo" class="link_footer">student@tripleten.com</a>
-        <div class="footer_social_links">
-        <a href="https://www.linkedin.com/in/karinaguevaragarcia/"><img src="./images/iconos/in_Negative.png" alt="LinkedIn" class="linkedin"/></a>
-        <a href="https://facebook.com"><img src="./images/iconos/fb_negative.png" alt="Facebook" class="acebook" /></a>
-        <a href="https://instagram.com"><img src="./images/iconos/inta_negative.png" alt="Instagram" class="insta" /></a>
-        <a href="https://x.com"><img src="./images/iconos/x_negative.png" alt="X"  class="x"/></a>
+      <h4 class="title_footer">Contacto</h4>
+      <a href="correo" class="link_footer">student@tripleten.com</a>
+      <div class="footer_social_links">
+        <a href="https://www.linkedin.com/in/karinaguevaragarcia/"
+          ><img
+            src="./images/iconos/in_Negative.png"
+            alt="LinkedIn"
+            class="linkedin"
+        /></a>
+        <a href="https://facebook.com"
+          ><img
+            src="./images/iconos/fb_negative.png"
+            alt="Facebook"
+            class="acebook"
+        /></a>
+        <a href="https://instagram.com"
+          ><img
+            src="./images/iconos/inta_negative.png"
+            alt="Instagram"
+            class="insta"
+        /></a>
+        <a href="https://x.com"
+          ><img src="./images/iconos/x_negative.png" alt="X" class="x"
+        /></a>
         <div class="footer_glow"></div>
-        </div>
+      </div>
     </footer>
   </body>
 </html>

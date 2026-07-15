@@ -559,9 +559,8 @@ body {
   .card {
     width: 280px;
     height: 160px;
-    aspect-ratio:16/9;
+    aspect-ratio: 16/9;
   }
-
 
   .cards_container {
     width: 280px;
@@ -574,7 +573,7 @@ body {
   .img_overlay {
     width: 280px;
     height: 160px;
-    aspect-ratio:16/9;
+    aspect-ratio: 16/9;
   }
 
   .overlay {
