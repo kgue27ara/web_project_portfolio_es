@@ -247,7 +247,7 @@ body {
   line-height: 1.38;
   color: #ffffff;
   margin: 0;
-  padding: 0px 0px 0px 30px;
+  padding: 0px 20px 0px 30px;
 }
 
 .card_descriptionparagraph {
@@ -629,7 +629,8 @@ body {
   }
 
   .footer {
-    position: static;
+    position: absolute;
+    top: 250%;
     width: 100%;
     padding: 60px 40px;
     box-sizing: border-box;
@@ -650,7 +651,7 @@ body {
   }
 
   .footer_glow {
-    left: 100%;
+    left: 0%;
     top: auto;
     background: #6d6dff;
   }
