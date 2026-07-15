@@ -556,9 +556,17 @@ body {
     justify-content: left;
   }
 
+  .card {
+    width: 280px;
+    height: 160px;
+    aspect-ratio:16/9;
+  }
+
+
   .cards_container {
     width: 280px;
     height: 160px;
+    gap: 480px;
   }
 
   .card_img,
@@ -570,7 +578,9 @@ body {
   }
 
   .overlay {
-    height: auto;
+    width: 280px;
+    height: 160px;
+    padding: 0px;
   }
 
   .logo_overlay1,
