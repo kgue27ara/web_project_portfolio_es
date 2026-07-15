@@ -472,7 +472,8 @@ body {
   /* === fin cards === */
 
   .header_glow {
-    left: 100%;
+    left: 60%;
+    top: 10%;
     bottom: 100%;
     background: #6d6dff;
   }
@@ -630,7 +631,7 @@ body {
 
   .footer {
     position: absolute;
-    top: 250%;
+    top: 370%;
     width: 100%;
     padding: 60px 40px;
     box-sizing: border-box;
