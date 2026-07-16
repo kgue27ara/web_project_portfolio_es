@@ -52,12 +52,26 @@ El sitio se adapta a tres tamaños de pantalla:
 ```
 proyecto/
 ├── index.html
-├── styles.css
+├── styles/
+│   ├── index.css
+├── fonts/
+│   ├── Archivo Black. woff
+│   ├── Archivo Black. woff2
+│   ├── Archivo Open Sans italic. woff
+│   ├── Archivo Open Sans italic. woff2
+│   ├── Archivo Open Sans Regular. woff
+│   ├── Archivo Open Sans Regular. woff2
 ├── images/
 │   ├── perfil_karina.jpg
 │   ├── proyectos/
 │   ├── iconos/
 │   └── iconos/logos_overlay/
+├── downloads/
+│   ├── 2026_cv_karina.pdf
+├── favicon
+├── editorconfig
+├── prettierignore
+├── gitignore
 └── README.md
 ```
 
@@ -65,7 +79,7 @@ proyecto/
 
 1. Clona este repositorio:
    ```bash
-   git clone <url-del-repositorio>
+   git clone <https://github.com/kgue27ara/web_project_portfolio_es>
    ```
 2. Abre la carpeta del proyecto en VS Code.
 3. Usa la extensión **Live Server** (o similar) y abre `index.html`.

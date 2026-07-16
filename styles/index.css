@@ -251,6 +251,12 @@ body {
 }
 
 .card_descriptionparagraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
   padding: 0px 30px 30px;
   margin: 0;
 }
