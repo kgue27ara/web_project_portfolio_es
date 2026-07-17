@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Archivo";
   src:
-    url("./fonts/ArchivoBlack-Regular.woff2") format("woff2"),
-    url("./fonts/ArchivoBlack-Regular.woff") format("woff");
+    url("../fonts/ArchivoBlack-Regular.woff2") format("woff2"),
+    url("../fonts/ArchivoBlack-Regular.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -78,7 +78,7 @@ body {
 }
 
 .header_description {
-  width: 793;
+  width: 793px;
   max-width: 793px;
   font-family: "Open Sans";
   font-style: normal;
@@ -270,7 +270,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 1.38px;
   color: #ffffff;
   padding: 0px 30px 30px;
   margin: 0;
@@ -492,13 +492,6 @@ body {
 
   .footer {
     position: static;
-    top: 0px;
-    left: -10;
-    padding: 100px 40px;
-  }
-
-  .footer {
-    position: static;
     width: 100%;
     padding: 200px 40px;
     box-sizing: border-box;
@@ -579,7 +572,7 @@ body {
   }
 
   .overlay {
-    width: 100%px;
+    width: 100%;
     height: auto;
   }
 
