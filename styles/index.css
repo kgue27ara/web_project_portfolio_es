@@ -47,7 +47,7 @@ body {
   align-items: center;
   padding: 89px 120px 0px 120px;
   min-height: 500px;
-  gap: 60px;
+  gap: 20px;
 }
 
 .header_textcontainer {
@@ -55,7 +55,8 @@ body {
   max-width: 790px;
 }
 
-.header_title {
+.header_title{
+  width: 450px;
   max-width: 793px;
   font-family: "Archivo Black";
   font-style: normal;
@@ -77,7 +78,8 @@ body {
 }
 
 .header_description {
-  max-width: 530px;
+  width: 793;
+  max-width: 793px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -95,13 +97,26 @@ body {
   margin: 0;
 }
 
-.header_glow,
+.header_glow {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+  left: ;
+  background: radial-gradient(
+    circle,
+    rgba(109, 109, 255, 0.6) 0%,
+    rgba(109, 109, 255, 0) 70%
+  );
+  z-index: -1;
+}
+
 .footer_glow {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 800px;
+  height: 800px;
   border-radius: 50%;
-  left: 60%;
+  left: 20%;
   background: radial-gradient(
     circle,
     rgba(109, 109, 255, 0.6) 0%,
@@ -203,7 +218,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0px 120px 100px 120px;
   gap: 20px;
 }
@@ -499,8 +514,11 @@ body {
 @media screen and (max-width: 767px) {
   .header {
     padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align: center;
+    gap: 30px;
   }
 
   .header_title {
